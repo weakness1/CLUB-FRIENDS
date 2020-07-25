@@ -1,0 +1,94 @@
+<html>
+<head>
+<title>Servicios</title>
+</head>
+<body>
+<style type="text/css">			
+
+* {
+    margin:0px;
+    padding:0px;
+   }
+			
+	#header {
+		margin:auto;
+		width:500px;
+		font-family:Arial, Helvetica, sans-serif;
+		}
+			
+	ul, ol {
+		list-style:none;
+		}
+			
+	.nav > li {
+		float:right;
+		}
+		
+	.nav li a {
+		background-color:#000;
+		color:#fff;
+		text-decoration:none;
+		padding:10px 12px;
+		display:block;
+		}
+			
+	.nav li a:hover {
+		background-color:#434343;
+		}
+			
+	.nav li ul {
+		display:none;
+		position:absolute;
+		min-width:140px;
+		}
+			
+	.nav li:hover > ul {
+		display:block;
+		}
+			
+	.nav li ul li {
+		position:relative;
+		}
+			
+	.nav li ul li ul {
+		right:-140px;
+		top:0px;
+		}
+			
+</style>
+</head>
+<body>
+<div id="right">
+<ul class="nav">
+<li><a href="index.html">Inicio</a></li>
+<li><a href="">Ventas</a>
+<ul>
+<li><a href="servicios.html">Servicios</a></li>
+<li><a href="productos.html">Productos</a></li>
+</ul>
+<li><a href="">Acerca de</a>
+<ul>
+<li><a href="">Horarios</a></li>
+<li><a href="ofertas.html">Ofertas</a></li>
+</ul>
+</li>
+<li><a href="">Contacto</a></li>
+</ul>
+</div>
+<P><font color="#003366" size="36" face="comic sans"> Tuburiociber </font></P>
+<table width="100%" height="12%" border="0" cellpadding="0" cellspacing="0" bgcolor="#003366">
+<tr>
+<td width="581" height="19">&nbsp;</td>
+</tr>
+</table><BR>
+<P align="center"><font color="#003366" size="36" face="comic sans"> Horarios </font></P><BR>
+<div align="center"><TABLE  BORDERCOLOR="" CELLPADDING="20">
+<TR>
+<TD><font color="orange" size="14" face="comic sans">Lunes a viernes de 6:00 A.M a 9:30 P.M</font></div>
+</TR>
+<TR>
+<TD><font color="orange" size="14" face="comic sans">Sabados y Domingos de 9:00 A.M a 9:00 P.M</font></div>
+</TR>
+</table>
+</body>
+</html>
